@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/Untitled-1.ico">
+</head>
+
+<body>
+
+
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-sm navbar-dark p-3">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand logo" href="#">Food<span class="text-warning">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recipi">Recipies</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Food From
+                            Countries</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#srilanka">Sri Lanka</a></li>
+                            <li><a class="dropdown-item" href="#japan">Japan</a></li>
+                            <li><a class="dropdown-item" href="#korean">Korean</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fastfood">Fast Food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dietplans">Diet Plans</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Untitled-1.png" alt="Burger" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Burger</h3>
+                    <p>A sandwich made of a patty of ground meat, usually beef, between two halves of a bun.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Untitled-2.png" alt="tomato omlet" class="d-block" style="width:100%">
+                <div class="carousel-caption ">
+                    <h3>Tomato Omelette</h3>
+                    <p>It can be made with simple ingredients like eggs, tomatoes, pepper, salt, and
+                        red chili powder.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Untitled-3.png" alt="Pizza" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Pizza</h3>
+                    <p>an Italian flat, open-faced baked pie made of a thin layer of bread dough, tomato sauce, cheese,
+                        and other toppings.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!--Content (Recipies)-->
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-sm-8">
+                <h2 id="recipi" class="text-dark">COMFORT FOOD RECIPIES</h2>
+                <p>Pull up a chair to our biggest and best collection of comfort food recipes. Slow-cooker dishes,
+                    casseroles,
+                    pot pies, cakes and cookies—it doesn't get better than this.</p>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+
+        <!--Recipies-->
+        <div class="mt-3">
+            <div class="row">
+
+                <!--Recipies Cards-1-->
+                <div class="col-sm-3">
+                    <div class="card" style="width:250px">
+                        <img class="card-img-top" src="img/Sheet pan meal.jpeg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Sheet Pan Meals
+                            </h4>
+                            <p class="card-text">Sheet pan meals are a lifesaver for busy weeknights. They're easy to
+                                prepare, require minimal cleanup, and can be customized to your liking. Here are some of
+                                the best sheet pan meals:</p>
+                            <a href="#" class="btn btn-warning btn-sm">See Recipi</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Recipies Cards-2-->
+                <div class="col-sm-3">
+                    <div class="card" style="width:250px">
+                        <img class="card-img-top" src="img/eggplant parmesan.jpeg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Eggplant Parmesan</h4>
+                            <p class="card-text">Skip the messy process of frying eggplant and bake it on a sheet pan
+                                instead. The thick slices get the same crisp exterior and soft interior, but you'll use
+                                a lot less oil, making for a healthy dinner that only.</p>
+                            <a href="#" class="btn btn-warning btn-sm">See Recipi</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Recipies Cards-3-->
+                <div class="col-sm-3">
+                    <div class="card" style="width:250px">
+                        <img class="card-img-top" src="img/sheet pan chiken.jpeg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Sheet Pan Chicken</h4>
+                            <p class="card-text">We'd be just as happy to eat this crowd-pleaser for brunch as we would
+                                for dinner. The crispy, oven-fried chicken breasts and soft homestyle waffles would make
+                                for an amazing meal on their own.</p>
+                            <a href="#" class="btn btn-warning btn-sm">See Recipi</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Recipies Cards-4-->
+                <div class="col-sm-3">
+                    <div class="card" style="width:250px">
+                        <img class="card-img-top" src="img/biriyani.jpeg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Curried Biryani</h4>
+                            <p class="card-text">Worried about over-cooking shrimp? Baking on a sheet pan takes out all
+                                of the guesswork. Customize this meal to your own tastes: add chile powder for more heat
+                                or lime juice for more heat or</p>
+                            <a href="#" class="btn btn-warning btn-sm">See Recipi</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Recipi Collection-->
+    <div class="container mt-4">
+        <div class="border">
+            <div class="row">
+                <div class="col-sm-8">
+                    <img src="img/garlic bread.webp" alt="bread" style="width: 100%;">
+                </div>
+                <div class="col-sm-4">
+                    <div class="m-5">
+                        <p>Collection</p>
+                        <h3 class="text-dark">HOW TO MAKE GARLIC BREAD</h3>
+                        <p>Looking to seriously up your garlic bread game? Try this recipe for a classic toasty loaf.
+                            It’s
+                            golden brown with crusty edges, extra-garlicky, and a little cheesy. What’s not to love?By
+                            Heather Baird</p>
+                        <a href="#" class="btn btn-warning">See Recipi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4 mb-4">
+        <div class="border">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="m-5">
+                        <h3 class="text-dark">SIMPLY SOUR CREAM CHICKEN ENCHILADAS</h3>
+                        <p>"Easy to assemble, deliciously creamy and a great choice for once-a-month cooking. And there
+                            is
+                            NO canned cream soup in my enchiladas."</p>
+                        <a href="#" class="btn btn-warning">See Recipi</a>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <img src="img/creem chiken.png" alt="creem chiken" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Vie all-->
+    <div class="container">
+        <a href="#" class="fw-medium fs-6 float-end link-opacity-50-hover link-offset-2">View all.</a>
+    </div>
+    <br>
+    <!--Country Foods-->
+    <div class="mt-5">
+        <hr>
+        <div class="container">
+            <h2 class="text-dark">FOOD FROM COUNTRIES</h2>
+            <p>The world's countries offer a vast array of cuisines! Travel the world through your taste buds with
+                Italian pizza, Japanese sushi, or Mexican tacos. Sri Lanka boasts fragrant rice and curries, while
+                France is known for its buttery croissants. No matter where you look, there's a delicious dish waiting
+                to be explored.</p>
+        </div>
+        <!--Sri lanka-->
+        <div class="container mt-5">
+            <h3 class="text-dark fw-bolder" id="srilanka">SRI LANKA</h3>
+            <div class="col-sm-12">
+                <p>Sri Lankan cuisine is a vibrant tapestry of flavors, centered around fluffy rice and the creamy
+                    richness of coconut. Fresh seafood, fragrant spices, and an abundance of vegetables come together to
+                    create curries, the heart of a Sri Lankan meal. Dinners feature a dazzling spread: a protein curry
+                    like fish or chicken, alongside vegetable curries, lentil curries, and fiery sambols. Coconut milk
+                    adds a touch of sweetness, balanced by the tang of pickled fruits and the heat of chilies. No Sri
+                    Lankan meal is complete without a side of crispy flatbread, perfect for scooping up all the
+                    deliciousness.</p>
+            </div>
+        </div>
+
+        <!--Sri lanka Recipi-->
+        <div class="container mt-4">
+            <div class="row">
+                <!--Sri lanka Recipi-1-->
+                <div class="col-sm-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-sm-4">
+                                <img src="img/rice and curry.jpeg" class="img-fluid rounded-start" alt="Rice and curry"
+                                    style="width: 180px; height: 220px;">
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">RICE AND CURRY</h5>
+                                    <p class="card-text">This is the national dish of Sri Lanka and is typically eaten
+                                        for
+                                        lunch. It consists of steaming hot, fluffy rice served with a variety of
+                                        curries.
+                                    </p>
+                                    <a href="#" class="btn btn-warning">See more..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Sri lanka Recipi-2-->
+                <div class="col-sm-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="img/kottu.jpeg" class="img-fluid rounded-start" alt="kottu"
+                                    style="width: 180px; height: 220px;">
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">KOTTU</h5>
+                                    <p class="card-text">This is another Sri Lankan staple dish and is essentially Sri
+                                        Lanka's version of a stir-fry.It's made with chopped roti (flatbread), shredded
+                                        vegetables, meat (usually chicken or beef), </p>
+                                    <a href="#" class="btn btn-warning">See more..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!--Sri lanka Recipi-3-->
+                <div class="col-sm-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="img/kiribath.png" class="img-fluid rounded-start" alt="kottu"
+                                    style="width: 180px; height: 220px;">
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">KIRIBATH</h5>
+                                    <p class="card-text">Kiribath is a traditional Sri Lankan dish made from rice cooked
+                                        with coconut milk. The name "kiribath" itself comes from Sinhala, where "kiri"
+                                        means milk and "bath" means rice.
+                                    </p>
+                                    <a href="#" class="btn btn-warning">See more..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Sri lanka Recipi-4-->
+                <div class="col-sm-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="img/appa hoppers.png" class="img-fluid rounded-start" alt="kottu"
+                                    style="width: 180px; height: 220px;">
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">HOPPERS (APPA)</h5>
+                                    <p class="card-text">This is another Sri Lankan staple dish and is essentially Sri
+                                        Lanka's version of a stir-fry.It's made with chopped roti (flatbread), shredded
+                                        vegetables, meat (usually chicken or beef), </p>
+                                    <a href="#" class="btn btn-warning">See more..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Vie all-->
+    <div class="container">
+        <a href="#" class="fw-medium fs-6 float-end link-opacity-50-hover link-offset-2">View all.</a>
+    </div>
+
+    <!--JAPAN-->
+    <div class="container mt-5">
+        <hr>
+        <h3 class="text-dark fw-bolder" id="japan">JAPAN</h3>
+        <div class="col-sm-12">
+            <p>Japanese cuisine, also known as Washoku, is a beautiful balance of fresh, seasonal ingredients and
+                meticulous presentation. Steamed rice is the heart of most meals, accompanied by a symphony of flavors.
+                Delicate slivers of sashimi, the freshest raw fish, can be enjoyed alongside crisp tempura, lightly
+                battered and fried vegetables or seafood. Simmering broths feature in dishes like sukiyaki, a savory hot
+                pot with beef and vegetables, while noodles like soba and udon offer comforting alternatives. Pickled
+                vegetables add a vibrant tang, and miso soup, a staple, provides a warm and umami-rich counterpoint.
+                Every element on the plate is considered, creating a visually stunning and delightfully flavorful
+                experience.:</p>
+        </div>
+    </div>
+
+    <!--Japan Recipi card-->
+    <div class="container mt-4">
+        <div class="row">
+            <!--Japanees Recipi card-1-->
+            <div class="col-sm-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-sm-4">
+                            <img src="img/sushi.png" class="img-fluid rounded-start" alt="Rice and curry"
+                                style="width: 180px; height: 220px;">
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="card-body">
+                                <h5 class="card-title">SUSHI</h5>
+                                <p class="card-text">
+                                    Sushi is a Japanese dish featuring specially flavored rice with vinegar, sugar, and
+                                    salt. It's often paired with raw or cooked seafood, vegetables, or even egg.
+                                </p>
+                                <a href="#" class="btn btn-warning">See more..</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Japanees Recipi card-2-->
+            <div class="col-sm-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/ramen.jpeg" class="img-fluid rounded-start" alt="Rice and curry"
+                                style="width: 180px; height: 220px;">
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="card-body">
+                                <h5 class="card-title">RAMEN</h5>
+                                <p class="card-text">Ramen is a Japanese noodle soup. It stars thin wheat noodles in a
+                                    flavorful broth, usually rich and savory. The broth can be made from pork, chicken,
+                                    fish, or even miso paste.
+                                </p>
+                                <a href="#" class="btn btn-warning">See more..</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Japanees Recipi card-3-->
+            <div class="col-sm-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-sm-4">
+                            <img src="img/sashmi.jpeg" class="img-fluid rounded-start" alt="Rice and curry"
+                                style="width: 180px; height: 220px;">
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="card-body">
+                                <h5 class="card-title">SASHMI</h5>
+                                <p class="card-text">
+                                    Sashimi is a Japanese dish of thinly sliced raw fish or seafood. Think of it like
+                                    the seafood centerpiece of sushi, without the rice. It's known for its freshness and
+                                    delicate flavors.
+                                </p>
+                                <a href="#" class="btn btn-warning">See more..</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Japanees Recipi card-4-->
+            <div class="col-sm-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-sm-4">
+                            <img src="img/Miso Soup.jpeg" class="img-fluid rounded-start" alt="Rice and curry"
+                                style="width: 180px; height: 220px;">
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="card-body">
+                                <h5 class="card-title">MISO SOUP</h5>
+                                <p class="card-text">
+                                    Miso soup is a comforting Japanese staple. It's a light broth flavored with miso
+                                    paste, a fermented soybean paste that adds a savory, umami punch.
+                                </p>
+                                <a href="#" class="btn btn-warning">See more..</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--View all-->
+    <div class="container">
+        <a href="#" class="fw-medium fs-6 float-end link-opacity-50-hover link-offset-2">View all.</a>
+    </div>
+
+
+    <!--Korean-->
+    <div class="container mt-5">
+        <hr>
+        <h3 class="text-dark fw-bolder" id="korean">KOREAN</h3>
+        <div class="col-sm-12">
+            <p>Korean food is a vibrant tapestry of bold flavors and textures. Kimchi, the spicy fermented cabbage,
+                takes center stage, served alongside an array of savory dishes like bibimbap, a colorful bowl of rice
+                with vegetables and meat, and bulgogi, thinly sliced and marinated grilled beef. Spicy and sweet stews
+                simmer alongside chewy rice cakes in tteokbokki, a popular street food. Korean BBQ provides a fun and
+                interactive experience, where diners cook meats and vegetables at the table and wrap them in lettuce
+                leaves with kimchi and other delicious accompaniments.</p>
+        </div>
+    </div>
+
+    <!--Korean Recipi card-->
+    <div class="container mt-4">
+        <div class="row">
+            <!--Korean Recipi card-1-->
+            <div class="col-sm-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-sm-4">
+                            <img src="img/kimchi.jpeg" class="img-fluid rounded-start" alt="Rice and curry"
+                                style="width: 180px; height: 220px;">
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="card-body">
+                                <h5 class="card-title">KIMCHI</h5>
+                                <p class="card-text">
+                                    A staple in Korean cuisine, kimchi is a fermented vegetable dish usually made with
+                                    napa cabbage. Kimchi has a spicy, sour, and salty flavor and is a rich source of
+                                    probiotics.
+                                </p>
+                                <a href="#" class="btn btn-warning">See more..</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Korean Recipi card-2-->
+            <div class="col-sm-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-sm-4">
+                            <img src="img/bibimbap.jpeg" class="img-fluid rounded-start" alt="Rice and curry"
+                                style="width: 180px; height: 220px;">
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="card-body">
+                                <h5 class="card-title">BIBIMBAP</h5>
+                                <p class="card-text">This dish is a colorful bowl of rice topped with seasoned
+                                    vegetables, meat (usually bulgogi), a fried egg, and gochujang (Korean chili paste).
+                                </p>
+                                <a href="#" class="btn btn-warning">See more..</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Korean Recipi card-3-->
+            <div class="col-sm-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-sm-4">
+                            <img src="img/bulgogi.jpeg" class="img-fluid rounded-start" alt="Rice and curry"
+                                style="width: 180px; height: 220px;">
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="card-body">
+                                <h5 class="card-title">BULGOGI</h5>
+                                <p class="card-text">
+                                    Bulgogi is a thin, marinated beef dish that is typically grilled. The marinade for
+                                    bulgogi is usually made with soy sauce, sesame oil, garlic, and ginger.
+
+                                </p>
+                                <a href="#" class="btn btn-warning">See more..</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Korean Recipi card-4-->
+            <div class="col-sm-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-sm-4">
+                            <img src="img/tteokbokki.jpeg" class="img-fluid rounded-start" alt="Rice and curry"
+                                style="width: 180px; height: 220px;">
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="card-body">
+                                <h5 class="card-title">TTEOKBOKKI</h5>
+                                <p class="card-text">
+                                    Tteokbokki is a popular Korean street food made with chewy rice cakes, fish cakes,
+                                    and a spicy gochujang sauce. Tteokbokki is often sold from food carts and stalls,
+                                </p>
+                                <a href="#" class="btn btn-warning">See more..</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--View all-->
+    <div class="container">
+        <a href="#" class="fw-medium fs-6 float-end link-opacity-50-hover link-offset-2">View all.</a>
+    </div>
+
+    <!--Fast Foods-->
+    <div class="mt-5">
+        <hr>
+        <div class="container">
+            <h2 class="text-dark mt-4" id="fastfood">FAST FOODS</h2>
+            <p class="mt-3">
+                Fast food offers a tempting solution for busy lifestyles. With their convenient locations, speedy
+                service, and familiar flavors, these restaurants cater to people on the go. Whether it's a juicy burger,
+                a crispy serving of fries, or a cheesy slice of pizza, fast food delivers a quick and satisfying bite.
+                However, it's important to be mindful that these meals are often high in calories, sodium, and unhealthy
+                fats.
+            </p>
+        </div>
+    </div>
+
+    <!--Fast Food Comapy-->
+    <div class="container mt-5">
+        <h5 class="fw-normal">There are many world famous fast food companies, but some of the most recognizable
+            include:
+        </h5>
+
+        <div class="row mt-3">
+            <div class="col-sm-4">
+                <!--Card-1-->
+                <div class="card" style="width:350px">
+                    <div class="card-body">
+                        <h4 class="card-title">McDonald's</h4>
+                        <p class="card-text">he Golden Arches are a universal symbol of fast food.
+                        </p>
+                        <a href="#" class="btn btn-warning">See Profile</a>
+                    </div>
+                    <img class="card-img-bottom" src="img/mcdonals.jpeg" alt="Card image"
+                        style="width:100%; height: 450px;">
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <!--Card-2-->
+                <div class="card" style="width:350px">
+                    <div class="card-body">
+                        <h4 class="card-title">KFC</h4>
+                        <p class="card-text">Kentucky Fried Chicken, or KFC, is famous for its fried chicken.
+                        </p>
+                        <a href="#" class="btn btn-warning">See Profile</a>
+                    </div>
+                    <img class="card-img-bottom" src="img/kfc.jpeg" alt="Card image" style="width:100%; height: 450px;">
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <!--Card-3-->
+                <div class="card" style="width:350px">
+                    <div class="card-body">
+                        <h4 class="card-title">Starbucks</h4>
+                        <p class="card-text">Fast food, Starbucks is a global giant in the
+                            coffee industry.
+                        </p>
+                        <a href="#" class="btn btn-warning">See Profile</a>
+                    </div>
+                    <img class="card-img-bottom" src="img/starbucks.jpeg" alt="Card image"
+                        style="width:100%; height: 450px;">
+                </div>
+            </div>
+        </div>
+
+        <!--View all-->
+        <div class="container mt-3">
+            <a href="#" class="fw-medium fs-6 float-end link-opacity-50-hover link-offset-2">View all.</a>
+        </div>
+
+    </div>
+    <!--Fast food advantages and disadvantages-->
+    <div class="container mt-5">
+        <p class="text-dark fs-5">Fast food can be a convenient and
+            tempting option, but it's
+            important to
+            weigh the
+            pros
+            and cons before you indulge:</p>
+        <div class="row mt-4">
+            <div class="col-sm-6">
+                <p class="fw-medium text-center fs-5 border rounded border-dark p-3 shadow">
+                    Advantages</p>
+                <ul class="border border-dark rounded shadow">
+                    <li class="p-2"><span class="fw-medium">Convenience:</span> Fast food is all about speed. You can
+                        grab a meal quickly through a
+                        drive-thru or order for takeout, making it a lifesaver on busy schedules.</li>
+                    <li class="p-2"><span class="fw-medium">Affordability:</span> Fast food meals can be inexpensive,
+                        especially compared to sit-down
+                        restaurants.</li>
+                    <li class="p-2"><span class="fw-medium">Variety:</span>There's a wide selection of fast food options
+                        to choose from, including burgers, pizzas, salads, and ethnic cuisines.</li>
+                    <li class="p-2"><span class="fw-medium">Availability: </span>Fast food restaurants are ubiquitous,
+                        making it easy to find a bite to eat almost anywhere
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <p class="fw-medium text-center fs-5 border rounded border-dark p-3 shadow">
+                    Disadvantages</p>
+                <ul class="border border-dark rounded shadow">
+                    <li class="p-3"><span class="fw-medium">Nutrition</span>Fast food is generally loaded with calories,
+                        unhealthy fats, sodium, and sugar, and often lacking in essential vitamins and minerals.
+                        Regularly consuming fast food can increase </li>
+                    <li class="p-2"><span class="fw-medium">Ingredients:</span>Some fast food may contain artificial
+                        preservatives, additives, and unhealthy processing methods.</li>
+                    <li class="p-2"><span class="fw-medium">Limited customization:</span>While there may be some options
+                        for customization, fast food meals are generally prepared according to standard recipes, so you
+                        may not be able to control all the ingredients you're consuming</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Diet Plans-->
+    <div class="mt-5" id="dietplans">
+        <hr>
+        <div class="container">
+            <h2 class="text-dark mt-4">DIET PLANS FOR HEALTHY LIFE</h2>
+            <p class="mt-3">
+                A healthy diet plan isn't about strict restrictions, but rather creating a balanced and sustainable way
+                to nourish your body. It should include plenty of fruits, vegetables, and whole grains for essential
+                vitamins and fiber. Lean protein sources like fish, chicken, or beans keep you feeling full and support
+                muscle function. Healthy fats from nuts, seeds, and olive oil provide energy and aid nutrient
+                absorption. Remember, moderation is key. Limit processed foods, sugary drinks, and unhealthy fats for
+                long-term well-being. This approach fuels your body for optimal health and a vibrant life</p>
+        </div>
+
+        <!--Diet Plans Explain-->
+        <div class="container mt-5">
+            <h4 class="text-dark text-center">Here's a breakdown of a well-balanced diet plan for a healthy life.</h4>
+            <!--Diet Plan 1-->
+            <div class="row mt-5">
+                <div class="col-sm-4">
+                    <h5 class="text-dark">> Fruits, Vegetables, and Whole Grains:</h5>
+                </div>
+                <div class="col-sm-8">
+                    <p>These should be the foundation of your diet. They provide essential vitamins, minerals, and
+                        fiber, which are all crucial for good health. Aim to fill half your plate with fruits and
+                        vegetables at every meal. Choose a variety of colors to ensure you're getting a good range of
+                        nutrients.</p><br>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="img/diet img-1.jpeg" alt="diet img-1" class="float-end rounded"
+                                style="height: 200px;">
+                        </div>
+                        <div class="col-6">
+                            <img src="img/diet img-2.jpeg" alt="diet img-2" class="float-start rounded"
+                                style="height: 200px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Diet Plan 2-->
+            <div class="row mt-5">
+                <div class="col-sm-4">
+                    <h5 class="text-dark">> Lean Protein Sources:</h5>
+                </div>
+                <div class="col-sm-8">
+                    <p>Include lean protein sources like fish, chicken, beans, lentils, and tofu in your diet. Protein
+                        helps you feel full and satisfied, and it's important for building and repairing tissues.</p>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="img/lean protein img-1.jpeg" alt="diet img-1" class="float-end rounded"
+                                style="height: 200px;">
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="img/lean protein img-2.jpeg" alt="diet img-2" class="float-start rounded"
+                                style="height: 200px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Diet Plan 3-->
+            <div class="row mt-5">
+                <div class="col-sm-4">
+                    <h5 class="text-dark">> Healthy Fats:</h5>
+                </div>
+                <div class="col-sm-8">
+                    <p>Don't be afraid of healthy fats! They're essential for providing energy, absorbing nutrients, and
+                        keeping you feeling full. Healthy fats can be found in nuts, seeds, avocados, and olive oil.</p>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="img/fats img-1.jpeg" alt="diet img-1" class="float-end rounded"
+                                style="height: 200px;">
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="img/fats img-2.jpeg" alt="diet img-2" class="float-start rounded"
+                                style="height: 200px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Diet Plan 4-->
+            <div class="row mt-5">
+                <div class="col-sm-4">
+                    <h5 class="text-dark">> Limit Processed Foods, Sugary Drinks, and Unhealthy Fats :</h5>
+                </div>
+                <div class="col-sm-8">
+                    <p>Processed foods, sugary drinks, and unhealthy fats are often high in calories, unhealthy fats,
+                        sodium, and added sugars. These foods can contribute to weight gain and other health problems.
+                        It's best to limit your intake of these foods as much as possible.</p>
+                </div>
+            </div>
+            <!--Diet Instructions-->
+            <div class="text-center mt-5 fw-medium fs-5 border border-dark rounded p-3">
+                <p>Remember, this is just a general guide. The best diet plan for you will depend on your individual
+                    needs
+                    and goals. It's always a good idea to talk to your doctor or a registered dietitian before starting
+                    any
+                    new diet plan.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="bg-dark py-5 mt-5">
+        <div class="container text-light text-center">
+            <a class="navbar-brand logo display-4 mb-3" href="#">Food<span class="text-warning">.</span></a><br>
+            <small class="text-white-50">&copy;Copyright by Food.com: All rights reserved.</small>
+        </div>
+    </footer>
+
+</body>
+
+</html>
